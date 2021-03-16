@@ -21,6 +21,15 @@ h2 {
   padding: 0;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.margin-bottom {
+  margin-bottom: 0;
+}
+
 .container {
   max-width: 1200px;
   margin-right: auto;
@@ -115,4 +124,38 @@ h2 {
 
 .special-offers-item-price {
   margin-bottom: 45px;
+}
+
+.special-offers-right-heading {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.special-offers-right-price {
+  margin-bottom: 45px;
+}
+
+/* About us */
+
+
+/* Services */
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1170px;
+}
+
+.services-item {
+  width: 573px;
+  margin-bottom: 23px;
+}
+
+.services-item:not(:nth-child(2n)) {
+  margin-right: 23px;
+}
+
+.services-link {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
