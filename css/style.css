@@ -26,10 +26,6 @@ p {
   padding: 0;
 }
 
-.margin-bottom {
-  margin-bottom: 0;
-}
-
 .container {
   max-width: 1200px;
   margin-right: auto;
@@ -47,6 +43,7 @@ p {
 }
 
 .btn {
+  display: inline-block;
   padding: 13px 20px;
 
   border: 1px solid #CC9933;
@@ -59,6 +56,7 @@ p {
   line-height: 16px;
 
   color: #CC9933;
+  cursor: pointer;
 }
 
 /* Header */
@@ -158,4 +156,67 @@ p {
   display: block;
   margin-bottom: 15px;
   font-weight: bold;
+}
+
+/* Advantages */
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1170px;
+}
+
+.advantages-item {
+  width: 275px;
+  margin-bottom: 23px;
+}
+
+.advantages-item:not(:nth-child(4n)) {
+  margin-right: 23px;
+}
+
+/* Placement */
+.placement-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1170px;
+}
+
+.placement-item {
+  width: 374px;
+  margin-bottom: 23px;
+}
+
+.placement-item:not(:nth-child(3n)) {
+  margin-right: 23px;
+}
+
+.placement-price {
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.price-from {
+  margin-right: 5px;
+}
+
+.price-cost {
+  margin-right: 5px;
+}
+
+.placement-name {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.placement-location {
+  margin-bottom: 30px;
+}
+
+.placement-btn {
+  display: inline-block;
+}
+
+.margin-bottom {
+  margin-bottom: 0;
 }
