@@ -41,6 +41,7 @@
 body {
   margin: 0;
   font-family: 'Muller';
+  background: #E5E5E5;
 }
 
 a {
@@ -81,6 +82,10 @@ p {
 
 .section-heading {
   margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #333333;
 }
 
 .btn {
@@ -103,12 +108,14 @@ p {
 /* Header */
 .header-top {
   display: flex;
-  height: 55px;
   align-items: center;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .header-top-left {
+  display: flex;
+  align-items: center;
   margin-right: auto;
 }
 
@@ -116,10 +123,30 @@ p {
   margin-right: 40px;
 }
 
+.header-tel {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #666666;
+}
+
+.header-personal-account {
+  padding-left: 27px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #CC9933;
+  background-image: url('/img/arrow.svg');
+  background-repeat: no-repeat;
+}
+
 .header-bottom {
   display: flex;
   align-items: center;
   height: 70px;
+  padding: 10px 45px;
+  border-radius: 15px;
+  background-color: white;
 }
 
 .nav {
@@ -136,6 +163,8 @@ p {
 
 .header-btn-list {
   display: flex;
+  padding-left: 57px;
+  border-left: 1px solid #E1E1E1;
 }
 
 .header-btn-item:not(:last-child) {
@@ -148,30 +177,80 @@ p {
 }
 
 .special-offers-left {
-  width: 50%;
-  margin-right: 23px;
+  min-width: 570px;
+  margin-right: 20px;
+}
+
+.special-offers-item {
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
 }
 
 .special-offers-item:not(:last-child) {
   margin-bottom: 23px;
 }
 
+.special-offers-item-first {
+  background-image: url('/img/specialOffers1.png');
+}
+
+.special-offers-item-second {
+  background-image: url('/img/specialOffers2.png');
+}
+
 .special-offers-item-heading {
   display: block;
-  margin-bottom: 15px;
+  margin: 40px 234px 15px 40px;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: white;
 }
 
 .special-offers-item-price {
+  margin-left: 40px;
   margin-bottom: 45px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.special-offers-right {
+  display: flex;
+  flex-direction: column;
+  background-image: url('/img/specialOffers3.png');
+  background-repeat: no-repeat;
+  border-radius: 15px;
 }
 
 .special-offers-right-heading {
   display: block;
-  margin-bottom: 15px;
+  margin: 210px 235px 15px 40px;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #FFFFFF;
 }
 
 .special-offers-right-price {
+  margin-left: 40px;
   margin-bottom: 45px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.more-detailed {
+  width: 100px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  padding-right: 15px;
+  background-image: url('/img/arow_more.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFCC66;
 }
 
 /* About us */
