@@ -82,6 +82,7 @@ p {
 
 .section-heading {
   margin-bottom: 20px;
+  margin-left: 40px;
   font-size: 40px;
   line-height: 40px;
   font-weight: 400;
@@ -360,8 +361,10 @@ p {
 }
 
 .placement-item {
-  width: 374px;
+  width: 373px;
   margin-bottom: 23px;
+  border-radius: 15px;
+  background-color: white;
 }
 
 .placement-item:not(:nth-child(3n)) {
@@ -370,29 +373,74 @@ p {
 
 .placement-price {
   display: flex;
-  margin-top: 35px;
-  margin-bottom: 15px;
+  margin: 35px 46px 15px 45px;
 }
 
 .price-from {
   margin-right: 5px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+  color: #999999;
 }
 
 .price-cost {
   margin-right: 5px;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700;
+  color: black;
+}
+
+.price-per-night {
+  margin-right: 45px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: black;
 }
 
 .placement-name {
   margin-bottom: 15px;
-  font-weight: bold;
+  margin-left: 45px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: black;
 }
 
 .placement-location {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-left: 45px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+  color: #999999;
 }
 
 .placement-btn {
   display: inline-block;
+  margin-bottom: 41px;
+  margin-left: 45px;
+}
+
+.placement-item-end {
+  background-image: url('/img/placement9.png');
+  background-repeat: no-repeat;
+}
+
+.placement-link {
+  display: inline-block;
+  margin: 373px 0 27px 54px;
+  padding-right: 18px;
+  background-image: url('/img/arrow_move3.svg');
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: right;
+  font-size: 20px;
+  line-height: 2;
+  font-weight: 500;
+  color: white;
 }
 
 .margin-bottom {
