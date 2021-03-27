@@ -254,7 +254,13 @@ p {
 }
 
 /* About us */
-
+.about-us-description {
+  max-width: 890px;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 400;
+  color: black;
+}
 
 /* Services */
 .services-list {
@@ -265,17 +271,52 @@ p {
 
 .services-item {
   width: 573px;
+  min-height: 330px;
   margin-bottom: 23px;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 15px;
 }
 
 .services-item:not(:nth-child(2n)) {
   margin-right: 23px;
 }
 
+.services-item-img1 {
+  background-image: url('/img/services1.png');
+}
+
+.services-item-img2 {
+  background-image: url('/img/services2.png');
+}
+
+.services-item-img3 {
+  background-image: url('/img/services3.png');
+}
+
+.services-item-img4 {
+  background-image: url('/img/services4.png');
+}
+
 .services-link {
-  display: block;
-  margin-bottom: 15px;
-  font-weight: bold;
+  display: inline-block;
+  margin: 190px 0 15px 45px;
+  padding-right: 15px;
+  background-image: url('/img/arrow_more2.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  font-size: 20px;
+  font-weight: 1;
+  font-weight: 500;
+  color: #CC9933;
+}
+
+.section-description {
+  margin: 0 126px 50px 45px;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 400;
+  color: black;
 }
 
 /* Advantages */
@@ -288,11 +329,28 @@ p {
 .advantages-item {
   width: 275px;
   margin-bottom: 23px;
+  padding: 40px 42px 41px 45px;
+  border-radius: 15px;
+  background-color: white;
 }
 
 .advantages-item:not(:nth-child(4n)) {
   margin-right: 23px;
 }
+
+.advantages-icon {
+  padding-bottom: 10px;
+  max-width: 66px;
+  max-height: 66px;
+}
+
+.advantages-description {
+  max-width: 188px;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 400;
+  color: black;
+} 
 
 /* Placement */
 .placement-list {
